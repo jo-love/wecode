@@ -1,7 +1,10 @@
-const getEvenNum = (num) => {
-  
+const getEvenNum = () => {
+  let arr = [];
   for (let num = 1; num <= 50; num++) {
-    if (num % 2 === 0) console.log(num);
-  }
-};
-getEvenNum();
+    if (num % 2 === 0){
+        arr.push(num)
+      }
+  }  
+  return arr; 
+}
+   getEvenNum();    
